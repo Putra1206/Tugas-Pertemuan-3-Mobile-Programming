@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class ProfilePage extends StatefulWidget {
-  const ProfilePage({Key? key}) : super(key: key);
+  const ProfilePage({super.key});
 
   @override
   State<ProfilePage> createState() => _ProfilePageState();
@@ -24,11 +24,11 @@ class _ProfilePageState extends State<ProfilePage> {
             ),
             SizedBox(height: 20),
             Text(
-              "Nama: Resti",
+              "Nama: Moch Fahri Putra",
               style: TextStyle(fontSize: 18),
             ),
             Text(
-              "Email: resti@email.com",
+              "Email: fahri@gmail.com",
               style: TextStyle(fontSize: 16),
             ),
           ],
